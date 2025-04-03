@@ -1,13 +1,13 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -fsanitize=address,leak,undefined
-CLIBS=-lm
+CLIBS=-lSDL2 -lm
 
 all: main
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $^
 
-main: board.o main.c
+main: board.o state.o main.c
 	$(CC) $(CFLAGS) -o $@ $^ $(CLIBS)
 
 clean:
