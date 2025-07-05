@@ -1,16 +1,16 @@
-# gameoflife
-Une implémentation simpliste du jeu de la vie en langage C.
+# गेमऑफलाइफ
+सी भाषा में जीवन के खेल का एक सरल कार्यान्वयन।
 
-## Todo
-- [x] Première implémentation dans la console
-- [ ] Possibilité de changer le nombre de cellules
-- [x] Possibilité de charger un fichier
-- [x] Portage graphique avec SDL
-- [x] Mise en pause de la simulation et possibilité de cliquer sur chaque cellule pour toggle l'état d'une cellule
-    - [x] Mise en pause avec la touche SPACE de la simulation
-    - [x] Pouvoir cliquer sur une cellule pour toggle l'état de la cell à la génération actuelle
-- [ ] Parallélisation des calculs avec CUDA?
+## करने योग्य
+- [x] कंसोल में पहला कार्यान्वयन
+- [ ] कोशिकाओं की संख्या बदलने की संभावना
+- [x] फ़ाइल लोड करने की संभावना
+- [x] SDL के साथ ग्राफिकल पोर्टिंग
+- [x] सिमुलेशन को रोकने और प्रत्येक कोशिका पर क्लिक करके कोशिका की स्थिति को टॉगल करने की संभावना
+    - [x] SPACE कुंजी के साथ सिमुलेशन को रोकना
+    - [x] वर्तमान पीढ़ी में कोशिका की स्थिति को टॉगल करने के लिए कोशिका पर क्लिक करने की क्षमता
+- [ ] CUDA के साथ गणनाओं का समानांतरकरण?
 
-## Licence
+## लाइसेंस
 BSD-3
 
