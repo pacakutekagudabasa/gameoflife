@@ -1,16 +1,19 @@
-# गेमऑफलाइफ
-सी भाषा में जीवन के खेल का एक सरल कार्यान्वयन।
+#GameOfLife
+A simple implementation of the game of life in C language.
 
-## करने योग्य
-- [x] कंसोल में पहला कार्यान्वयन
-- [ ] कोशिकाओं की संख्या बदलने की संभावना
-- [x] फ़ाइल लोड करने की संभावना
-- [x] SDL के साथ ग्राफिकल पोर्टिंग
-- [x] सिमुलेशन को रोकने और प्रत्येक कोशिका पर क्लिक करके कोशिका की स्थिति को टॉगल करने की संभावना
-    - [x] SPACE कुंजी के साथ सिमुलेशन को रोकना
-    - [x] वर्तमान पीढ़ी में कोशिका की स्थिति को टॉगल करने के लिए कोशिका पर क्लिक करने की क्षमता
-- [ ] CUDA के साथ गणनाओं का समानांतरकरण?
+## Doables
+- [x] First implementation in console
+- [ ] Possibility to change number of cells
+- [x] Possibility to load file
+- [x] Graphical porting with SDL
+- [x] Possibility to pause simulation and toggle cell state by clicking on each cell
+- [x] Pausing simulation with SPACE key
+- [x] Ability to click on cell to toggle cell state in current generation
+- [ ] Parallelization of calculations with CUDA?
 
-## लाइसेंस
+## License
 BSD-3
 
+## Contributors
+[CallMePixelMan](https://github.com/CallMePixelMan)
+[पचाकुटेक गुदा बास](https://github.com/pacakutekagudabasa)
